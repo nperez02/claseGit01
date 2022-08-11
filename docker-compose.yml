@@ -1,0 +1,12 @@
+version: '3.9' 
+services:
+  fastapi:
+    build: .
+    ports:
+      - '8080:80'
+    depends_on:
+      - mysql
+  mysql:
+    image: mysql
+    ports:
+      - '3306:3306'
