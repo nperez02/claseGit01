@@ -28,7 +28,7 @@ async def myName(name: str):
 
 @app.get("/mylastname/{lastname}")
 async def mylastname(lastname: str):
-    return {"message": f"Hola, mi apellido es {lastname}."}
+    return {"message": f"Hello. I am the user {lastname}. Have a nice day!"}
 
 @app.get("/technology")
 async def redirect_typer():
