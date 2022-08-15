@@ -1,7 +1,7 @@
 version: '3.9' 
 services:
   fastapi:
-    image: nperez02/clase_devops:myimagefastapiv4
+    image: nperez02/clase_devops:myimagefastapiv5
     build: ./docker_fastapi
     ports:
       - '8080:80'
